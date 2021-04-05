@@ -21,3 +21,29 @@ In this project, I will leverage a queue service to provide IP addresses in a cl
 -	Build a new class called “App” and create an instance of “SQSManager”. 
 -	Build a new class called “ManagerApp”. By calling “SQSManager” functions, this class can be used to create sqs queue and add IP address.
 -	Build a new class called “ClientApp”. By calling “SQSManager” functions, this class can be used to apply IP address and release IP address.
+
+## Architecture:
+![Arhitecture_img](./image/IMG_IPAM_%20Architecture.jpg)
+
+## UML:
+![UML_img](./image/IMG_IPAM_UML.jpg)
+
+## Workflow:
+![Workflow_img](./image/IMG_IPAM_WorkFlow.jpg)
+
+## To build the project using Maven:
+
+- Open a terminal and navigate to the project directory IpAddressManagement.
+- Use the the following command to build the project
+```
+mvn package
+```
+
+## To run the application
+- Use the following command to run the application
+```
+mvn exec:java -Dexec.mainClass="com.example.IpAddressManagement.App"
+```
+
+
+
