@@ -14,7 +14,7 @@ import java.util.List;
 
 public class SQSManager {
     //static var
-    private static final AWSCredentials credentials = new BasicAWSCredentials("AKIAZ2T6W6PH5BAWMK7P","cFZvWM5S+0pE7EdAB+05SR3dB3xg+W6ZfZarZoag");
+    private static final AWSCredentials credentials = new BasicAWSCredentials("key_id","access_key");
     private static final AWSStaticCredentialsProvider credentialsProvider = new AWSStaticCredentialsProvider(credentials);
 
     //private var
